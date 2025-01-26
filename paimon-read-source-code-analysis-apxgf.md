@@ -15,7 +15,11 @@ toc: true
 
 从官网上可以看到paimon读操作的配置，其中相关的配置都和snapshot相关。
 
+​![image.png](https://raw.githubusercontent.com/danzhewuju/danzhewuju.github.io/blog/blog/source/images20250126192344.png)​
+
 从下面的流程图中可以看到他们之间主要差别。
+
+​![image.png](https://raw.githubusercontent.com/danzhewuju/danzhewuju.github.io/blog/blog/source/images20250126192340.png)​
 
 对于manifest 的文件的读取主要是根据下面的plan 来实现
 
